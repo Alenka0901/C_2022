@@ -1,16 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int SquaredSum(int a, int b);
-
-int main(){
-SquaredSum(12, 6);
-SquaredSum(12, -6);
-return 0;
+int SquaredSum(int a, int b){
+return (a+b)*(a+b);
 }
 
-int SquaredSum(int a,int b){
-cout << (a+b)*(a+b) << "\n";
+int main(){
+cout « SquaredSum(12, 6) « "\n";
+cout « SquaredSum(12, -6) « "\n";
 
 return 0;
 }
